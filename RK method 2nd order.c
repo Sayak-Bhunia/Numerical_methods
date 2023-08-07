@@ -20,7 +20,7 @@ void main()
     y = y0;
     for(i=0;i<=n-1;i++) {
         k1 = h*f(x,y);
-        k2 = h*f(x+h,y+k);
+        k2 = h*f(x+h,y+k1);
         k = (k1+k2)/2;
         x = x + h;
         y = y + k;
